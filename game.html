@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level - Tebak Stiker: Suki Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Info Game -->
+        <div class="game-info">
+            <p>Nyawa: <span id="lives">❤️❤️❤️</span></p>
+            <p>Koin: <span id="coin-count">💰0</span></p>
+        </div>
+
+        <!-- Progress Bar Timer -->
+        <div class="timer-container">
+            <div class="timer-bar" id="timer-bar"></div>
+        </div>
+        <p>Waktu: <span id="timer">20</span> detik</p>
+
+        <!-- Kotak Hitam untuk Judul -->
+        <div class="game-header">
+            <h1>Level <span id="current-level"></span></h1>
+        </div>
+
+        <!-- Pertanyaan -->
+        <p id="question"></p>
+
+        <!-- Gambar -->
+        <div class="image-container">
+            <img id="image" src="" alt="Gambar Tebakan">
+        </div>
+
+        <!-- Opsi Jawaban -->
+        <div class="options" id="options"></div>
+
+        <!-- Hasil -->
+        <p id="result"></p>
+
+        <!-- Tombol Kembali -->
+        <button class="btn-back" id="back-to-levels">Kembali ke Level</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

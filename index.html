@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebak Stiker: Suki Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-menu">
+        <!-- Kotak Hitam untuk Logo -->
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo Game" class="logo">
+        </div>
+
+        <!-- Judul Game -->
+        <h1>Tebak Stiker: Suki Edition</h1>
+
+        <!-- Tombol Menu -->
+        <div class="menu-buttons">
+            <button class="btn" id="play-button">Mulai Main</button>
+            <button class="btn" id="shop-button">Shop <span id="shop-notification" class="notification-badge">!</span> </button>
+            <button class="btn" id="settings-button">Pengaturan</button>
+            <button class="btn" id="about-button">Tentang</button>
+            <button class="btn" id="exit-button">Keluar</button>
+        </div>
+    </div>
+
+<!-- Elemen Audio untuk Background Musik -->
+    <audio id="background-music" loop>
+        <source src="audio/background-music.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
